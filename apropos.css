@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'outfit';
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+header img {
+    margin-top: 15px;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+header nav a:hover {
+    border-bottom: solid 2px green;
+}
+.apropos h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(2, 79, 2);
+}
+.apropos p {
+    text-align: center;
+    font-size: 20px;
+    padding: 0 200px;
+}
+.fackcards h3 {
+    color: rgb(2, 79, 2);
+    text-align: center;
+
+}
+.fackcards{
+    display: flex;
+    padding: 40px;
+    grid-template-columns: repeat(4, 1fr) ;
+    gap: 20px;
+}
+.sponsors {
+     display: flex;
+    padding: 40px;
+    grid-template-columns: repeat(4, 1fr) ;
+    gap: 20px;
+}
+.sponsors h2{
+    color: rgb(2, 79, 2);
+    text-align: center;    
+}
+footer {
+    background-color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    color:rgb(148, 141, 141);
+    padding: 5px 40px;
+
+}
+footer::before {
+    content : "" ;
+    position: absolute;
+    top: 0;
+    left: 180px;
+    width: 70%;
+    height: 1px;
+    background-color: black;
+
+}
+.menu {
+    display: flex;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.menu a {
+    color: rgb(148, 141, 141);
+    text-decoration: none;
+    border-top: 1px solid rgb(148, 141, 141);
+    padding: 5px 0;
+    margin-left: 20px;
+}
+.menu a:hover {
+    color :black;
+}
+.socialmedia {
+    margin-bottom: 20px;
+}
+footer div p {
+    margin-left: 20px;
+}
+footer div i {
+    margin-left: 10px;
+    font-size: 20px;
+}
+footer div i:hover {
+    color :black;
+}
+footer div img {
+    width: 60px;
+}
+.x {
+    color: black ;
+}
+.imagefooter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.solicode {
+    width: 120px;
+}
+.imagefooter a {
+    text-decoration: none;
+    margin-top: 5px;
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'outfit' ;
+    font-weight: 400;
+}
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+        }
+        b {
+        color : rgb(3, 96, 3) ;
+        font-family: 'outfit';
+        font-weight: 500;
+        }
+        
+        
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            gap: 50px;
+        }
+        .imagefack {
+            position: relative;
+            width: 90%;
+            height: 100vh;
+            background: green;
+            
+        }
+       img {
+    position: absolute;
+    top: 130px;
+    left: 55%;
+    transform: translateX(-50%); 
+    width: 300px;
+}
+        form {
+            width: 100%;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+        .form-group input {
+            font-family: 'Quicksand', sans-serif;
+            width: 400px;
+            padding: 11px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            outline: none;
+        }
+        .btn-login {
+            width: 430px;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: green;
+            color: #fff;
+            font-weight: 300;
+        }
+        .btn-login:hover {
+            background: #046702;
+            transition: 0.3s;
+        }
+        .links {
+            margin-top: 14px;
+            text-align: center;
+            gap: 10px;
+        }
+        .links a {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 400;
+            color: #000;
+            text-decoration: none;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+        }

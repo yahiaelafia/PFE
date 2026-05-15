@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'outfit';
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+header img {
+    margin-top: 15px;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+header nav a:hover {
+    border-bottom: solid 2px green;
+}
+
+.container {
+    padding: 50px 0px;
+
+
+}
+.container h1 {
+    padding-left: 80px;
+}
+.container h1 span {
+    color: green;
+}
+.toutarticles{
+    display: flex;
+    padding: 40px;
+    grid-template-columns: repeat(4, 1fr) ;
+    gap: 20px;
+
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.135);
+    transition: 1s ease ;
+
+}
+.article:hover {
+    transform: translateY(-5px);
+}
+.article h3,p {
+    text-align: left;
+    padding :0 20px ;
+}
+.article img {
+    width: 100% ;
+    height: 300px ;
+    object-fit: cover;
+    border-radius : 8px 8px 0 0;
+
+}
+.footerarticle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.footerarticle a {
+    text-decoration: none;
+
+}
+.footerarticle p {
+    color: #777;
+    background-color: #d0cccc27;
+    border-radius: 40px;
+    padding: 3px 8px;
+}
+footer {
+    background-color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    color:rgb(148, 141, 141);
+    padding: 5px 40px;
+
+}
+footer::before {
+    content : "" ;
+    position: absolute;
+    top: 0;
+    left: 180px;
+    width: 70%;
+    height: 1px;
+    background-color: black;
+
+}
+.menu {
+    display: flex;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.menu a {
+    color: rgb(148, 141, 141);
+    text-decoration: none;
+    border-top: 1px solid rgb(148, 141, 141);
+    padding: 5px 0;
+    margin-left: 20px;
+}
+.menu a:hover {
+    color :black;
+}
+.socialmedia {
+    margin-bottom: 20px;
+}
+footer div i {
+    margin-left: 10px;
+    font-size: 20px;
+}
+footer div i:hover {
+    color :black;
+}
+footer div img {
+    width: 60px;
+}
+.x {
+    color: black ;
+}
+.imagefooter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.solicode {
+    width: 120px;
+}
+.imagefooter a {
+    text-decoration: none;
+    margin-top: 5px;
+}

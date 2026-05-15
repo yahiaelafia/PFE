@@ -45,15 +45,15 @@ header nav a:hover {
     grid-template-columns: repeat(4, 1fr) ;
     gap: 20px;
 }
-.sponsors {
-     display: flex;
-    padding: 40px;
-    grid-template-columns: repeat(4, 1fr) ;
-    gap: 20px;
-}
 .sponsors h2{
     color: rgb(2, 79, 2);
     text-align: center;    
+}
+.sponsors article {
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    gap: 40px ;
 }
 footer {
     background-color: white;

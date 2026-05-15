@@ -45,9 +45,10 @@ header nav a:hover {
     grid-template-columns: repeat(4, 1fr) ;
     gap: 20px;
 }
-.sponsors h2{
+.sponsors h3{
     color: rgb(2, 79, 2);
-    text-align: center;    
+    text-align: center; 
+    font-size: 40px;
 }
 .sponsors article {
     display: flex;

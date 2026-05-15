@@ -40,7 +40,7 @@
             </article>
         </div>
         <div class="sponsors">
-            <h2>Nos partenaires</h2>
+            <h3>Nos partenaires</h3>
             <article >
                 <img src="assets/tarbiya.png" width= "300px" alt="Img">
                 <img src="assets/solicodebleu.jpg" width="300px" alt="solicode">

@@ -63,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <label>Titre</label>
             <input type="text" name="titre" placeholder="Titre de l'offre" required>
             <label>Description</label>
-            <textarea name="description" placeholder="Décrivez l'offre de bénévolat…" required></textarea>
+            <textarea name="description" placeholder="Décrivez l'offre, le lieu de l'action et les coordonnées de contact ici…" required></textarea>
             <button type="submit">Publier l'offre</button>
         </form>
     </div>

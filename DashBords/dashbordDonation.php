@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <label>RIB</label>
             <input type="text" name="rib" placeholder="Relevé d'Identité Bancaire" required>
             <label>Description</label>
-            <textarea name="description" placeholder="Décrivez votre appel aux dons…" required></textarea>
+            <textarea name="description" placeholder="Détaillez votre appel aux dons, précisez le lieu de collecte et vos coordonnées de contact ici…" required></textarea>
             <button type="submit">Publier le post</button>
         </form>
     </div>

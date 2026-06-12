@@ -31,6 +31,9 @@ $dernieres_donations = $stmt->fetchAll();
             <a href="index.php">Accueil</a>
             <a href="articles.php">Volontariat</a>
             <a href="dotation.php">Donation</a>
+            <?php if (isset($_SESSION['role']) && $_SESSION['role'] === 'association'): ?>
+            <a href="DashBords/dashbord.php"></i> Tableau de bord</a>
+            <?php endif; ?>
             <a href="apropos.php">À propos</a>
             <a href="logout.php" class="exit"><i class="fa-solid fa-right-from-bracket"></i> Déconnecter</a>
         </nav>
@@ -81,14 +84,17 @@ $dernieres_donations = $stmt->fetchAll();
             <p>&copy; 2026 Ataa. Tous droits réservés.</p>
         </div>
         <div class="menu">
-            <p style="font-weight:600;color:#1b2a1b;margin-bottom:6px;">Navigation</p>
+            <p style="font-weight:600;margin-bottom:6px;">Menu principal :</p>
             <a href="index.php">Accueil</a>
             <a href="articles.php">Volontariat</a>
             <a href="dotation.php">Donation</a>
+            <?php if (isset($_SESSION['role']) && $_SESSION['role'] === 'association'): ?>
+            <a href="DashBords/dashbord.php"></i> Tableau de bord</a>
+            <?php endif; ?>
             <a href="apropos.php">À propos</a>
         </div>
         <div class="socialmedia">
-            <p style="font-weight:600;color:#1b2a1b;margin-bottom:6px;">Suivez-nous</p>
+            <p style="font-weight:600;margin-bottom:6px;">Suivez-nous</p>
             <div>
                 <i class="fab fa-facebook"></i>
                 <i class="fa-brands fa-x-twitter"></i>

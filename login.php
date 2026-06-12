@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST["password"];
 
     if (!empty($email) && !empty($password)) {
-        if ($email === "admin@ataa.ma" && $password === "12345") {
+        if ($email === "admin@ataa.ma" && $password === "123456") {
             $_SESSION["id"] = 0;
             $_SESSION["email"] = $email;
             $_SESSION["role"] = "admin";
@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $_SESSION["email"] = $email;
                 $_SESSION["username"] = $userA["name"];
                 $_SESSION["role"] = "association";
-                header("Location: DashBords/dashbord.php");
+                header("Location: index.php");
                 exit;
             }
             $message = "Email ou mot de passe incorrect.";

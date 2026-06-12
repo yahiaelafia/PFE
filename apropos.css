@@ -94,6 +94,7 @@ footer {
 .menu { display: flex; flex-direction: column; gap: 6px; }
 .menu a { color: var(--muted); text-decoration: none; }
 .menu a:hover { color: var(--green); }
+.socialmedia { display: flex; flex-direction: column; gap: 8px; }
 .socialmedia div { display: flex; gap: 14px; font-size: 20px; }
 .socialmedia i:hover { color: var(--green); cursor: pointer; }
 .imagefooter { display: flex; align-items: center; gap: 12px; }

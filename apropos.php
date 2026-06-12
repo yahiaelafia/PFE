@@ -22,6 +22,9 @@ if (!isset($_SESSION['id'])) {
             <a href="index.php">Accueil</a>
             <a href="articles.php">Volontariat</a>
             <a href="dotation.php">Donation</a>
+            <?php if (isset($_SESSION['role']) && $_SESSION['role'] === 'association'): ?>
+            <a href="DashBords/dashbord.php"></i> Tableau de bord</a>
+            <?php endif; ?>
             <a href="apropos.php">À propos</a>
             <a href="logout.php" class="exit">Se déconnecter</a>
         </nav>
@@ -58,18 +61,23 @@ if (!isset($_SESSION['id'])) {
         <footer>
         <p>&copy; 2026 Ataa. Tous droits réservés.</p>
         <div class="menu">
-            <p>Menu principal :</p>
+            <p style="font-weight:600;margin-bottom:6px;">Menu principal :</p>
             <a href="index.php">Accueil</a>
             <a href="article.php">Volontariat</a>
             <a href="dotation.php">Donation</a>
+            <?php if (isset($_SESSION['role']) && $_SESSION['role'] === 'association'): ?>
+            <a href="DashBords/dashbord.php"></i> Tableau de bord</a>
+            <?php endif; ?>
             <a href="apropos.php">À propos</a>
         </div> 
         <div class="socialmedia">
-            <p>Suiver nous:</p>
-            <i class="fab fa-facebook"></i>
-            <i class="fa-brands fa-x-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            </div>
+        <p style="font-weight:600;margin-bottom:6px;">Suiver nous:</p>
+            <div> 
+        <i class="fab fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fab fa-instagram"></i>
+             </div>
+        </div>
             <div>
                 <div class="imagefooter">
                     <a href="https://solicode.co/"><img class="solicode" src="assets/solicodenoir.png" alt="solicode"></a><b class="x">X</b><img src="assets/logonoir.png" alt="">
